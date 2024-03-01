@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  margin-top: 100px;
+  height: 500px;
+  transition: all 5s;
+}
+
+img:hover {
+  opacity: 0;
+}

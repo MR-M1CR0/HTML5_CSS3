@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+input {
+  margin-left: 20px;
+}
+
+#btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#btn:hover {
+  background-color: #3e8e41;
+
+}
+
+div {
+  margin-bottom: 50px;
+}
+
+canvas {
+  margin-left: 50px;
+}
